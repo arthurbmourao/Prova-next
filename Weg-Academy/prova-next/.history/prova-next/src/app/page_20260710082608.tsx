@@ -1,0 +1,45 @@
+import Image from "next/image";
+import Botao from "@/components/Botao";
+import Header from "@/components/Header";
+
+export default function Home() {
+  return (
+    <>
+      <Header/>
+        <section className="border-b border-slate-200 bg-slate-50">
+          <div className="mx-auto max-w-6xl px-4 py-16">
+            <div className="max-w-3xl">
+              <p className="mb-3 text-xs font-extrabold uppercase tracking-[0.16em] text-weg-blue">Plataforma de cursos técnicos</p>
+              <h1 className="text-4xl font-extrabold tracking-tight text-weg-dark md:text-6xl">
+                Aprendizagem para quem transforma tecnologia em indústria
+              </h1>
+              <p className="mt-5 max-w-2xl text-base leading-7 text-slate-600">
+                A WEG Academy reúne cursos e formações voltados para automação, acionamentos,
+                eficiência energética, eletricidade industrial e soluções aplicadas ao mundo do trabalho.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Botao
+                  bg={"bg-blue-400"}
+                  bgHover={"bg-weg-dark"} 
+                  border={""}
+                  corTexto={"text-white"} 
+                  placeHolder={"Explorar Cursos"}
+                  link={"/"}/>
+                <a href="#cursos" className="rounded-full bg-weg-blue px-5 py-3 text-sm font-bold text-white hover:bg-weg-dark">Explorar cursos</a>
+                <Botao
+                  bg={"bg-white"}
+                  bgHover={"bg-slate"} 
+                  border={""}
+                  corTexto={"text-white"} 
+                  placeHolder={"Explorar Cursos"}
+                  link={"/"}/>
+                <a href="./sobre.html" className="rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-bold text-weg-dark hover:bg-slate-50">Conhecer a WEG</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    </>
+    
+    
+  );
+}

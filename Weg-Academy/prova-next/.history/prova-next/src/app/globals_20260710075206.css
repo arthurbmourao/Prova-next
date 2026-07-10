@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+    --weg-
+}
+
+
+blue: '#00579D',
+              dark: '#003F7D',
+              light: '#EAF4FF'
+

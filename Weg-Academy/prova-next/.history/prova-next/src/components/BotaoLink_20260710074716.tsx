@@ -1,0 +1,6 @@
+
+import { BotaLinkProps } from "@/props/BotaoLinkProps";
+
+export default function BotaoLink(){
+
+}

@@ -1,0 +1,5 @@
+
+
+export interface BotaoProps {
+    bg
+}

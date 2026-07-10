@@ -1,0 +1,9 @@
+
+import { BotaLinkProps } from "@/props/BotaoLinkProps";
+import { usePathname } from "next/navigation";
+
+export default function BotaoLink({link, placeholder} : BotaLinkProps){
+
+    const pathName = usePathname()
+
+}
